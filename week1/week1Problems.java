@@ -1,4 +1,4 @@
-public class day1 {
+public class week1Problems {
     public static void main(String[] args) {
     // A. Hello World    
     // Your task is to print the string Hello World.
@@ -11,8 +11,6 @@ public class day1 {
     // System.out.println("Hello World");
 
     // B. Print First 5 Alphabets
-    // time limit per test1 second
-    // memory limit per test256 megabytes
     // Your task is to print the first five letters of the English alphabet.
     // Input
     // There is no input for this problem.
@@ -26,8 +24,6 @@ public class day1 {
     // System.out.println("E");
 
     // C. Triangle
-    // time limit per test1 second
-    // memory limit per test256 megabytes
     // Your task is to print a right-angled triangle pattern using asterisks (*).
     // Input
     // There is no input for this problem.
@@ -46,8 +42,6 @@ public class day1 {
     // System.out.println("*");
 
     // D. Print Z
-    // time limit per test1 second
-    // memory limit per test256 megabytes
     // Your task is to print the letter Z using asterisks (*) as shown below.
     // Input
     // There is no input for this problem.
@@ -59,10 +53,39 @@ public class day1 {
     //  *
     // *****
 
-    System.out.println("*****");
-    System.out.println("   *");
-    System.out.println("  *");
-    System.out.println(" *");
-    System.out.println("*****");
+    // System.out.println("*****");
+    // System.out.println("   *");
+    // System.out.println("  *");
+    // System.out.println(" *");
+    // System.out.println("*****");
+
+    // E. Print Table of 5
+    // Your task is to print the multiplication table of the 5.
+    // Input
+    // There is no input for this problem.
+    // Output
+    // Print the table of 5 in the format as shown in the example.
+
+    // System.out.println(5*1);
+    // System.out.println(5*2);
+    // System.out.println(5*3);
+    // System.out.println(5*4);
+    // System.out.println(5*5);
+
+    // F. Rectangle
+    // You are given the length and breadth of a rectangle. Your task is to calculate its area and perimeter.
+    // The formulas are:
+    // Area = length × breadth
+    // Perimeter = 2×(length+breadth)
+    // Input
+    // A single line containing two integers length and breadth (1≤length,breadth≤1000).
+    // Output
+    // You are given the length and breadth of a rectangle. Your task is to calculate its area and perimeter.
+    // The formulas are:
+    // Area = length × breadth
+    // Perimeter = 2×(length+breadth)
+
+
+
     }
 }
