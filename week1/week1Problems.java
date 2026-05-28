@@ -1,3 +1,4 @@
+import java.util.*;
 public class week1Problems {
     public static void main(String[] args) {
     // A. Hello World    
@@ -84,8 +85,15 @@ public class week1Problems {
     // The formulas are:
     // Area = length × breadth
     // Perimeter = 2×(length+breadth)
-
-
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter The Lenth, breadth");
+    int length = sc.nextInt();
+    int breadth = sc.nextInt();
+    int area, perimeter;
+    area = length * breadth;
+    perimeter = 2 * (length + breadth);
+    System.out.println("Area = " + area);
+    System.out.println("Perimeter = " + perimeter);
 
     }
 }
