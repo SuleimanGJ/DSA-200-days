@@ -45,11 +45,13 @@ public class week2Problems {
     // If there is no even number in the given range, print nothing.
 
     // int n = sc.nextInt();
-    // int i=1;
+    // int i=0;
     // while(i<=n){
-    //     System.out.println(i);
+    //     System.out.print(i);
+    //     // System.out.println(i);
     //     i+=2;
     // }
+    // System.out.println("");
 
     // for(int i=1; i<=n; i++){
     //     if(i%2 == 0){
@@ -69,8 +71,10 @@ public class week2Problems {
     // int l = sc.nextInt();
     // int r = sc.nextInt();
     // while(l <= r){
-
+    //  System.out.print(l);
+    //  l++;
     // }
+    // System.out.println("");
 
     // E. Print All Uppercase Alphabets
     // Print all uppercase English alphabets from A to Z using loops.
@@ -125,7 +129,31 @@ public class week2Problems {
     // Number of odd integers
 
 
+    // int n = sc.nextInt();
+    // int positive = 0;
+    // int negative = 0;
+    // int even = 0;
+    // int odd = 0;
+    // for(int i = 1; i <= n; i++){
+    //     int x = sc.nextInt();
+    //     if(x > 0){
+    //         positive++;
+    //     }
+    //     else if (x < 0){
+    //         negative++;
+    //     }
+    //     else if( x % 2 == 0){
+    //         even++;
+    //     }
+    //     else {
+    //         odd++;
+    //     }
+    // }
 
+    // System.out.println(positive);
+    // System.out.println(negative);
+    // System.out.println(even);
+    // System.out.println(odd);
 
 
     // H. Sum of First N Natural Numbers
@@ -138,8 +166,11 @@ public class week2Problems {
     // Print a single integer — the sum of the first N natural numbers.
 
 
-    // int sum = 0;
     // int n = sc.nextInt();
+    // if(n<0){
+    //     System.out.println(0)
+    // }
+    // long sum = 0;
     // int i = 1;
     // while(i <= n){
     //     sum+=i;
@@ -150,7 +181,7 @@ public class week2Problems {
 
     // I. Factorial
     // You are given an integer N.
-    // Find the factorial of N by writing a function that takes $$$N$$$ as a parameter and returns N!, where: N! = N!=1×2×3×⋯×N.
+    // Find the factorial of N by writing a function that takes N as a parameter and returns N!, where: N! = N!=1×2×3×⋯×N.
 
     // Input
     // The first line contains an integer N (0≤N≤20).
@@ -171,7 +202,7 @@ public class week2Problems {
     // Compute:
     // x^n=x×x×⋯×x
     // Input
-    // The first line contains two integers x and n ($$$-10 \le x \le 10$$$, $$$0 \le n \le 20$$$).
+    // The first line contains two integers x and n (0≤N≤20).
 
     // Output
     // Print the value of x^n.
@@ -197,7 +228,7 @@ public class week2Problems {
     //     System.out.println(0);
     // }
     // while(n != 0){
-    //     System.out.println(n % 10);
+    //     System.out.print(n % 10);
     //     n /= 10;
     // }
 
@@ -250,6 +281,22 @@ public class week2Problems {
 
     // Output
     // Print YES if the number is a palindrome, otherwise print NO.
-        
+
+    // int n = sc.nextInt();
+    // int rev = n;
+    // int ans = 0;
+    // while(n != 0){
+    //     ans = (ans * 10) + n % 10;
+    //     n = n / 10;
+    // }
+    // if(ans == rev){
+    //     System.out.println("YES");
+    // }
+    // else {
+    //     System.out.println("NO");
+    // }
+
+
+
     }
 }
